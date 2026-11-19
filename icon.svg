@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Web actions button">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#247bbf"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round">
+    <circle cx="32" cy="32" r="15"/>
+    <ellipse cx="32" cy="32" rx="7.4" ry="15"/>
+    <path d="M17 32h30"/>
+    <path d="M19.3 24h25.4"/>
+    <path d="M19.3 40h25.4"/>
+  </g>
+</svg>

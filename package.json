@@ -1,0 +1,61 @@
+{
+  "name": "@local/dsh-web-browser",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Controlled Chromium browser for DSH: agent-driven browsing, browser-backed web search, a composer master switch, a settings page, and a live view in the right sidebar.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeitlos6560/dsh-web-browser.git"
+  },
+  "homepage": "https://github.com/zeitlos6560/dsh-web-browser#readme",
+  "bugs": {
+    "url": "https://github.com/zeitlos6560/dsh-web-browser/issues"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "browser",
+    "chromium",
+    "browser-automation",
+    "web-search"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "lib",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "test",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-sidebar-right"
+      ]
+    }
+  }
+}

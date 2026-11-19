@@ -1,0 +1,27 @@
+# Dependencies (the bundle has none; keep the slot if one is ever added)
+node_modules/
+
+# Local runtime state. The engine writes these under ~/.dsh/web-browser/, not
+# here, but a stray run from the checkout must not leave them in git.
+.dsh/
+profile/
+shots/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Test and tooling output
+coverage/
+*.tap
+.nyc_output/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

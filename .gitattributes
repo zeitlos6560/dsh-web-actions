@@ -1,0 +1,15 @@
+# Normalize text to LF in the repository and in every working tree, so a Windows
+# checkout and a Linux CI run diff and lint the same bytes.
+* text=auto eol=lf
+
+*.svg text
+*.json text
+*.yml text
+*.mjs text
+
+# Images are binary regardless of platform conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Web actions",
+    "description": "Turns DSH into an operator of a real Chromium browser (Edge or Chrome, headless) shown live in the right sidebar. While the Web actions switch is on, the model can open pages, read rendered text, click, type, scroll, wait, take screenshots, and run page scripts; web search can run through the browser instead of the DeepSeek Search API. The composer button is the master switch, Settings > Web actions configures the browser, engines, and search takeover, and the sidebar tab shows the page the model is operating (you can also click and type in it yourself). Turning the switch off stops the browser and makes the search provider unavailable.",
+    "detail": "docs/DETAIL.md"
+  }
+}
