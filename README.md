@@ -200,9 +200,12 @@ The bundle is plain ES modules: no build step, no bundler, no TypeScript.
 Run the offline suite (no DSH, no browser, no dependencies):
 
 ```sh
-node --test test/            # every file
+node --test                  # every file, discovered as **/*.test.mjs
 node test/search.test.mjs    # one file, prints a PASS/FAIL line per case
 ```
+
+The files are standalone scripts that end with `process.exit()`, so the runner
+must keep one process per file (the default); they do not run in-process.
 
 ## License
 

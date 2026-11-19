@@ -18,12 +18,16 @@ jobs:
       matrix:
         node: ['22', '24']
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       # The suite needs no DSH, no browser, and no dependencies: it drives the
       # route handler and the engines with fakes. Each file also runs on its own
       # and prints one PASS/FAIL line per case.
+      #
+      # No path argument: the runner discovers **/*.test.mjs itself. Passing a
+      # directory (`node --test test/`) makes some Node versions load it as a
+      # module instead of scanning it, which fails with MODULE_NOT_FOUND.
       - name: Run the offline regression tests
-        run: node --test test/
+        run: node --test
