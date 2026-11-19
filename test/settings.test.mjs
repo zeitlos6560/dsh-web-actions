@@ -1,5 +1,5 @@
 // Offline tests for settings normalization and the search-result helpers.
-// Run:  ELECTRON_RUN_AS_NODE=1 <node> dsh-web-browser/test/settings.test.mjs
+// Run:  ELECTRON_RUN_AS_NODE=1 <node> test/settings.test.mjs
 import { DEFAULTS, normalizeSettings } from '../lib/settings.js';
 import { matchesQuery, queryTokens, toSources } from '../lib/search.js';
 

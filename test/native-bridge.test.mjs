@@ -1,6 +1,6 @@
 // Offline regression test for the native-view bridge routes (/web-browser/bridge/*).
 // Drives the real route handler with fake req/res and the real NativeEngine.
-// Run:  ELECTRON_RUN_AS_NODE=1 <node> dsh-web-browser/test/native-bridge.test.mjs
+// Run:  ELECTRON_RUN_AS_NODE=1 <node> test/native-bridge.test.mjs
 import { Readable } from 'node:stream';
 import { NativeEngine } from '../lib/native.js';
 import { registerBrowserRoutes } from '../lib/routes.js';

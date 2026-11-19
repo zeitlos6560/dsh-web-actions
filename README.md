@@ -1,6 +1,6 @@
 # Web actions
 
-**dsh-web-browser** — dsh可操作的web浏览器
+**dsh-web-actions** — dsh可操作的web浏览器
 
 A DSH bundle that gives the agent a **real Chromium browser** to operate, shows
 that browser live in the **right sidebar**, and can run web search **through the
@@ -19,7 +19,7 @@ up the new module generation.
 1. Clone the repository somewhere stable:
 
    ```sh
-   git clone https://github.com/zeitlos6560/dsh-web-browser.git
+   git clone https://github.com/zeitlos6560/dsh-web-actions.git
    ```
 
 2. In DSH open **Plugins** → **Add plugin** and select the cloned directory (the
@@ -213,7 +213,7 @@ must keep one process per file (the default); they do not run in-process.
 欢迎二次修改，不必先问作者。改了就改，只希望你在衍生项目里留一行出处：
 
 ```text
-基于 dsh-web-browser：https://github.com/zeitlos6560/dsh-web-browser
+基于 dsh-web-actions：https://github.com/zeitlos6560/dsh-web-actions
 ```
 
 写进 README、关于页或者提交说明都行。
@@ -222,7 +222,7 @@ Forks and rework are welcome — no need to ask first. If you publish a derivati
 a credit line back to this repository is all the author asks for:
 
 ```text
-Based on dsh-web-browser: https://github.com/zeitlos6560/dsh-web-browser
+Based on dsh-web-actions: https://github.com/zeitlos6560/dsh-web-actions
 ```
 
 ## License

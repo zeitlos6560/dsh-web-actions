@@ -1,5 +1,5 @@
 // Offline regression test for the /web-browser request guard (no DSH required).
-// Run:  ELECTRON_RUN_AS_NODE=1 <node> dsh-web-browser/test/guard.test.mjs
+// Run:  ELECTRON_RUN_AS_NODE=1 <node> test/guard.test.mjs
 import { registerBrowserRoutes } from '../lib/routes.js';
 
 let captured;

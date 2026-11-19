@@ -7,11 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeitlos6560/dsh-web-browser.git"
+    "url": "git+https://github.com/zeitlos6560/dsh-web-actions.git"
   },
-  "homepage": "https://github.com/zeitlos6560/dsh-web-browser#readme",
+  "homepage": "https://github.com/zeitlos6560/dsh-web-actions#readme",
   "bugs": {
-    "url": "https://github.com/zeitlos6560/dsh-web-browser/issues"
+    "url": "https://github.com/zeitlos6560/dsh-web-actions/issues"
   },
   "engines": {
     "node": ">=22"

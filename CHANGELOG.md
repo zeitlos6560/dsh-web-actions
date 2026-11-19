@@ -10,6 +10,10 @@ Notable changes to this bundle. The format follows
 
 - README: the derivative-work note (二创说明) only asks for a credit line back to
   this repository. The earlier wording listed permissions one by one and is gone.
+- The repository was renamed to `dsh-web-actions`: `repository`, `homepage`, and
+  `bugs` in `package.json`, the `LICENSE` holder string, and the README links all
+  point at the new name. The local directory name and the internal tab id are
+  unchanged.
 
 ## [1.1.0] - 2026-11-20
 

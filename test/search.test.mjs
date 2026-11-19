@@ -1,5 +1,5 @@
 // Offline regression test for the browser search provider and its engine specs.
-// Run:  <node> dsh-web-browser/test/search.test.mjs
+// Run:  <node> test/search.test.mjs
 import { desktopUserAgent } from '../lib/browser.js';
 import { ENGINES, createBrowserSearchProvider, matchesQuery, queryTokens } from '../lib/search.js';
 
