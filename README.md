@@ -24,7 +24,8 @@ up the new module generation.
 
 2. In DSH open **Plugins** → **Add plugin** and select the cloned directory (the
    one holding this `package.json`). The bundle inserts the `web-browser` row;
-   enable that row if your profile leaves it disabled.
+   enable that row if your profile leaves it disabled. The package itself is
+   named `dsh-web-actions` — the repository keeps its original name.
 
 3. If the new rows do not appear in the same session, restart DSH once. The
    「Web actions」 switch then sits at the left of the composer tool row,

@@ -4,13 +4,21 @@ Notable changes to this bundle. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [1.1.0] - 2026-11-20
 
 ### Changed
 
+- **Package renamed from `@local/dsh-web-browser` to `dsh-web-actions`.** The
+  bundle row id (`web-browser`), the sidebar tab id, and the on-disk state under
+  `~/.dsh/web-browser/` are unchanged, so settings, profile data, and screenshots
+  carry over.
 - README: state the derivative-work permission explicitly — fork, repackage,
   commercial use, and different terms for a derivative are allowed; retaining the
   MIT notice and a credit line is the only condition.
+
+Reinstalling is required after pulling this version: the profile links bundles by
+package name, so the old `@local/dsh-web-browser` link has to be replaced by
+`dsh-web-actions` (remove and add the plugin once).
 
 ## [1.0.0] - 2026-11-20
 
