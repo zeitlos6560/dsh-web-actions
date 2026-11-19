@@ -4,6 +4,14 @@ Notable changes to this bundle. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Changed
+
+- README: state the derivative-work permission explicitly — fork, repackage,
+  commercial use, and different terms for a derivative are allowed; retaining the
+  MIT notice and a credit line is the only condition.
+
 ## [1.0.0] - 2026-11-20
 
 First public release, built and verified against DeepSeek Harness 0.2.2-rc.3.
