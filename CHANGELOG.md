@@ -4,6 +4,13 @@ Notable changes to this bundle. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2026-11-20
+
+### Changed
+
+- README: the derivative-work note (二创说明) only asks for a credit line back to
+  this repository. The earlier wording listed permissions one by one and is gone.
+
 ## [1.1.0] - 2026-11-20
 
 ### Changed
@@ -12,9 +19,8 @@ Notable changes to this bundle. The format follows
   bundle row id (`web-browser`), the sidebar tab id, and the on-disk state under
   `~/.dsh/web-browser/` are unchanged, so settings, profile data, and screenshots
   carry over.
-- README: state the derivative-work permission explicitly — fork, repackage,
-  commercial use, and different terms for a derivative are allowed; retaining the
-  MIT notice and a credit line is the only condition.
+- README: add a derivative-work note asking for a credit line back to the
+  repository.
 
 Reinstalling is required after pulling this version: the profile links bundles by
 package name, so the old `@local/dsh-web-browser` link has to be replaced by

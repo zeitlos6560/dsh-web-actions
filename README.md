@@ -208,30 +208,25 @@ node test/search.test.mjs    # one file, prints a PASS/FAIL line per case
 The files are standalone scripts that end with `process.exit()`, so the runner
 must keep one process per file (the default); they do not run in-process.
 
-## 二创许可 / Derivative works
+## 二创说明 / Derivative works
 
-**欢迎二创，不必先问作者。** 本项目以 MIT 协议发布，因此你可以自由地：
+欢迎二次修改，不必先问作者。改了就改，只希望你在衍生项目里留一行出处：
 
-- 修改源码、重做界面、增删功能，做成你自己的分支或衍生插件；
-- 重新打包分发，发布到插件市场、网盘或自己的站点；
-- 用于商业产品或收费服务；
-- 给衍生版本换用别的协议（MIT 允许，无需以相同协议回馈）。
+```text
+基于 dsh-web-browser：https://github.com/zeitlos6560/dsh-web-browser
+```
 
-唯一的约束来自 MIT 本身：保留 [`LICENSE`](LICENSE) 中的版权声明与许可声明，并在你的
-衍生项目里注明「基于 dsh-web-browser」，附上本仓库链接更好。
+写进 README、关于页或者提交说明都行。
 
-欢迎把改进提 PR 回来；作者不对任何衍生作品提供支持或担保。
+Forks and rework are welcome — no need to ask first. If you publish a derivative,
+a credit line back to this repository is all the author asks for:
 
-**Derivative works are welcome — no need to ask first.** Released under MIT, so
-you may change the source, rework the UI, add or remove features, repackage and
-redistribute it (plugin marketplaces included), ship it inside a commercial or
-paid product, and license your derivative under different terms. The only
-condition MIT imposes is retaining the copyright and permission notice from
-[`LICENSE`](LICENSE); a credit line naming dsh-web-browser is appreciated.
+```text
+Based on dsh-web-browser: https://github.com/zeitlos6560/dsh-web-browser
+```
 
 ## License
 
-[MIT](LICENSE). The practical terms — forking, repackaging, commercial use,
-different terms for your own fork, and the credit line — are spelled out in the
-二创许可 / Derivative works section above.
+MIT — see [LICENSE](LICENSE). 上面那行出处是作者的一点期待，不改变 MIT 本身的条款。
+The credit line above is a request, not an extra condition on the MIT terms.
 
