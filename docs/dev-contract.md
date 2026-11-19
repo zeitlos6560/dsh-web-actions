@@ -220,7 +220,7 @@ unknown persisted keys. Defaults: `enabled: true`, `headless: true`,
    plus failures.
 
 3. **Right sidebar view** — tab type `web-browser` via
-   `ctx.sidebarRightTabs.register` (id `@local/dsh-web-browser`, `keepMounted`
+   `ctx.sidebarRightTabs.register` (id `dsh-web-actions`, `keepMounted`
    when the Desktop bridge is detected), body in `sidebar.right.pane.tab` with
    `key: <id>`, title in `sidebar.right.pane.tab.title`. Address bar, back/
    forward/reload, live frame image, click/wheel/keyboard forwarding, and a

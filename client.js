@@ -12,7 +12,7 @@
  * the `webBrowser` locale namespace (zh + en).
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-web-browser',
+  id: 'dsh-web-actions',
   factory(require) {
     const React = require('react');
     const { useCallback, useEffect, useRef, useState } = React;
@@ -25,7 +25,7 @@ window.__ModuleLoader__.load({
     /** Sidebar page kind opened through `ctx.sidebarRight.openTab`. */
     const TAB_KIND = 'web-browser';
     /** Sidebar tab-type identity and the key its body/title register under. */
-    const TAB_ID = '@local/dsh-web-browser';
+    const TAB_ID = 'dsh-web-actions';
     /** `/state` poll for the composer switch (contract: every 3 s). */
     const STATE_INTERVAL_MS = 3000;
     /** Live view poll (~2.5 fps). */

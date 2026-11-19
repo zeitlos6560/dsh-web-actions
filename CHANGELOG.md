@@ -4,6 +4,18 @@ Notable changes to this bundle. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.2] - 2026-11-20
+
+### Fixed
+
+- **The UI half did not load after the rename.** `client.js` still registered its
+  module factory under the old id, `@local/dsh-web-browser`, while the loader looks
+  the factory up by package name — so the composer switch, the settings section,
+  and the right-sidebar tab all disappeared. The factory id now equals the package
+  name (`dsh-web-actions`); the sidebar tab id and the Host log prefix follow.
+- Reload the DSH page after upgrading (a restart if the Host still serves the
+  cached client bundle).
+
 ## [1.1.1] - 2026-11-20
 
 ### Changed

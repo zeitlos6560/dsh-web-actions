@@ -29,7 +29,7 @@ export const name = 'web-composer-tools';
 export const inject = ['tools', 'web', 'webServer'];
 
 /** Short logger prefix so Host logs stay attributable. */
-const PREFIX = '[dsh-web-browser] ';
+const PREFIX = '[web-actions] ';
 
 /**
  * Build the engine facade that routes calls per `settings.engineMode`.
